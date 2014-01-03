@@ -4,7 +4,7 @@ Purpose: index page of LUG website
 Authors: Inderpreet Singh, Kamaljeet Kaur, 
 				Harjot Kaur, Ashutosh singh, 
 				Jasvir Singh, Gunnpreet Kaur,
-                                Amitoj Singh, Saloni Baweja.
+        			Amitoj Singh, Saloni Baweja.
 License: GPL V3 
 -->
 <!DOCTYPE html>
@@ -55,40 +55,35 @@ License: GPL V3
 		</div>
 		<!-- Home contains Contact form, About Text, and Sign Up form -->
 		<div class="home-container">
-			<div class="contacts-container">
-				
+			<div class="contact-container">
+				<div class='form-container'>		
+        	<form name='login'>
+          	<H1>Login</H1>
+          		Email<input type ='text' name='email' class='lug-input' class='login-email'>
+             	password<input type='password' name='pass' class='lug-input' class='login-pass'>
+             	<input type='submit' name='submit' value='Login' class='lug-submit' class='login-submit'>
+           </form>
+				</div>
 			</div>
 		
-			<div class="about-container">
-				
+			<div class="about-container">	
+    				<div class="about">
+				        <!--Content of about page -->
+				        <h1 class="about-heading">LUG</h1>
+				        <p class="about-text">
+					        A Linux User Group(LUG) is a private, generally non-profit  organization 
+					        that provides support and/or education for Linux users, particularly for
+					        inexperienced users.LUG Ludhiana promotes the use of Free And Open 
+					        Source Software(FOSS) among students to avoid piracy crimes besides 
+					        encouraging the use of Linux as their primary operating system for 
+					        day to day tasks.
+        				</p>
+				        <!-- about container ends here -->
+    				</div>
 			</div>
 
-			<div class="register-container">
-				
-			</div>
-		</div> <!-- home container ends here -->
-
-		<div class="project-container">
-			
-		</div>
-    </div>
-    <div class="about">
-        <!--Content of about page -->
-        <h1 class="about-heading">LUG</h1>
-        <p class="about-text">
-        A Linux User Group(LUG) is a private, generally non-profit  organization 
-        that provides support and/or education for Linux users, particularly for
-        inexperienced users.<br>LUG Ludhiana promotes the use of Free And Open 
-        Source Software(FOSS) among students to avoid piracy crimes besides 
-        encouraging the use of Linux as their primary operating system for 
-        day to day tasks.
-        </p>
-        <!-- about container ends here -->
-    </div>
-    <!-- container ends here -->
-   
-	<!--form container starts here for login and sign up-->
-          <div class='form-container'>
+			<div class="login-container">
+				<div class='form-container'>
            <form name='SignUp'>
              <H1>Sign Up</H1>
              Email<input type ='text' name='email' class='lug-input' class='signup-email'>
@@ -98,26 +93,12 @@ License: GPL V3
              <input type='submit' name='submit' value='sign up' class='lug-submit' class='signup-submit'>
             </form>
           </div>
+			</div>
+		</div> <!-- home container ends here -->
 
-        <div class='form-container'>
-        <form name='login'>
-          <H1>Login</H1>
-          Email<input type ='text' name='email' class='lug-input' class='login-email'>
-             password<input type='password' name='pass' class='lug-input' class='login-pass'>
-             <input type='submit' name='submit' value='Login' class='lug-submit' class='login-submit'>
-            </form>
-          </div>
-        <!--form container ends-->
-
-        <!--contact form-->
-          <H1> We are ready to help you</H1>
-           <div class=form-container>
-           <form name='contact'>
-              Name<input type= text name='uname' class='lug-input' class='contact-name'>
-              Email<input type= text name='ename'class='lug-input' class='contact-email'>
-              Message/Querry<textarea name='message' class='lug-input' class='contact-message'>Write here..</textarea>
-           </form>
-          </div>
-
+		<div class="project-container">
+			
+		</div>
+  </div>
 </body>
 </html>
