@@ -3,7 +3,8 @@ Filename: index.html
 Purpose: index page of LUG website
 Authors: Inderpreet Singh, Kamaljeet Kaur, 
 				Harjot Kaur, Ashutosh singh, 
-				Jasvir Singh, Gunnpreet Kaur.
+				Jasvir Singh, Gunnpreet Kaur,
+                                Amitoj Singh, Saloni Bajwa.
 License: GPL V3 
 -->
 <!DOCTYPE html>
@@ -85,5 +86,38 @@ License: GPL V3
         <!-- about container ends here -->
     </div>
     <!-- container ends here -->
+   
+	<!--form container starts here for login and sign up-->
+          <div class='form-container'>
+           <form name='SignUp'>
+             <H1>Sign Up</H1>
+             Email<input type ='text' name='email' class='lug-input' class='signup-email'>
+             password<input type='password' name='pass' class='lug-input' class='signup-pass'>
+
+             Confirm Password<input type='password' name='Cpass' class='lug-input' class='signup-cpass'>
+             <input type='submit' name='submit' value='sign up' class='lug-submit' class='signup-submit'>
+            </form>
+          </div>
+
+        <div class='form-container'>
+        <form name='login'>
+          <H1>Login</H1>
+          Email<input type ='text' name='email' class='lug-input' class='login-email'>
+             password<input type='password' name='pass' class='lug-input' class='login-pass'>
+             <input type='submit' name='submit' value='Login' class='lug-submit' class='login-submit'>
+            </form>
+          </div>
+        <!--form container ends-->
+
+        <!--contact form-->
+          <H1> We are ready to help you</H1>
+           <div class=form-container>
+           <form name='contact'>
+              Name<input type= text name='uname' class='lug-input' class='contact-name'>
+              Email<input type= text name='ename'class='lug-input' class='contact-email'>
+              Message/Querry<textarea name='message' class='lug-input' class='contact-message'>Write here..</textarea>
+           </form>
+          </div>
+
 </body>
 </html>
